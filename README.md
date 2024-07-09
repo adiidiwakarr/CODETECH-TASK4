@@ -38,6 +38,7 @@ It will print the top 3 predicted classes with their probabilities.
 
 
 
- ##NOTE 
+ ##NOTE
+ 
  CHANGE IMG_PATH=r"   "
  with your image path to import it in code.
