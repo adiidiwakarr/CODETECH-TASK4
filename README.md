@@ -10,7 +10,4 @@
 ## OVERVIEW OF THE PROJECT
 ### PROJECT: COMPUTER VISION TASK
 
-### OBJECTIVES : Computer Vision is a subfield of AI that enables machines to interpret
-and understand visual information from the real world. This task involves
-working on a computer vision problem, such as image classification or
-object detection. 
+### OBJECTIVES : Computer Vision is a subfield of AI that enables machines to interpretand understand visual information from the real world. This task involvesworking on a computer vision problem, such as image classification orobject detection. 
