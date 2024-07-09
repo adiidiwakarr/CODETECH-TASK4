@@ -18,6 +18,29 @@
 ## OVERVIEW OF THE PROJECT
 ### PROJECT: COMPUTER VISION TASK
 
+
+
+![Screenshot 2024-07-09 135625](https://github.com/adiidiwakarr/CODETECH-TASK4/assets/174021832/141af233-353c-4313-8a44-4108d867cf27)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### OBJECTIVES : The objective of this project is to create a Python program that can classify images into different categories using a pre-trained MobileNetV2 mode. (I HAVE USED CAR IMAGE AS AN EXAMPLE)
 
 ### This project involves the following steps:
