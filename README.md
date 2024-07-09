@@ -23,3 +23,7 @@
 **Classify the image:** Use the model to predict the class of the image ,Decode the predictions to human-readable labels using the decode_predictions function
 
 **Display the image and classification results:** Display the input image using Matplotlib ,Print the top 3 predicted classes along with their probabilities
+
+## RESULT
+The script will display the input image.
+It will print the top 3 predicted classes with their probabilities.
