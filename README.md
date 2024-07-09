@@ -10,4 +10,14 @@
 ## OVERVIEW OF THE PROJECT
 ### PROJECT: COMPUTER VISION TASK
 
-### OBJECTIVES : Computer Vision is a subfield of AI that enables machines to interpretand understand visual information from the real world. This task involvesworking on a computer vision problem, such as image classification orobject detection. 
+### OBJECTIVES : The objective of this project is to create a Python program that can classify images into different categories using a pre-trained MobileNetV2 mode. 
+
+### This project involves the following steps:
+
+**Install the required libraries:** tensorflow,pillow,matplotlib
+
+**Load and preprocess the image:** Use Pillow to load the image,Resize the image to the target size required by MobileNetV2 (224x224 pixels),Convert the image to a numpy array,Preprocess the image using the preprocess_input function from tensorflow.keras.applications.mobilenet_v2
+
+**Load the pre-trained MobileNetV2 model.**
+**Classify the image.**
+**Display the image and classification results.**
