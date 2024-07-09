@@ -10,7 +10,7 @@
 ## OVERVIEW OF THE PROJECT
 ### PROJECT: COMPUTER VISION TASK
 
-### OBJECTIVES : The objective of this project is to create a Python program that can classify images into different categories using a pre-trained MobileNetV2 mode. 
+### OBJECTIVES : The objective of this project is to create a Python program that can classify images into different categories using a pre-trained MobileNetV2 mode. (I HAVE USED CAR IMAGE AS AN EXAMPLE)
 
 ### This project involves the following steps:
 
