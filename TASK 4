@@ -1,0 +1,56 @@
+import tensorflow as tf
+from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input, decode_predictions
+from tensorflow.keras.preprocessing import image
+import numpy as np
+import matplotlib.pyplot as plt
+
+img_path = r"C:\\Users\\gaMERZONE\\Downloads\\img.jpeg"
+
+
+def load_and_preprocess_image(img_path):
+    img = image.load_img(img_path, target_size=(224, 224))
+    img_array = image.img_to_array(img)
+    img_array = np.expand_dims(img_array, axis=0)
+    img_array = preprocess_input(img_array)
+    return img_array 
+
+model = MobileNetV2(weights='imagenet')
+
+def classify_image(img_path):
+    img_array = load_and_preprocess_image(img_path)
+    preds = model.predict(img_array)
+    decoded_preds = decode_predictions(preds, top=3)[0]
+    return decoded_preds
+
+def display_image_and_predictions(img_path, predictions):
+    img = image.load_img(img_path)
+    plt.imshow(img)
+    plt.axis('off')
+    plt.show()
+
+predictions = classify_image(img_path)
+display_image_and_predictions(img_path, predictions)
+
+
+
+
+
+
+
+def classify_image(img_path):
+    img_array = load_and_preprocess_image(img_path)
+    preds = model.predict(img_array)
+    decoded_preds = decode_predictions(preds, top=3)[0]
+    return decoded_preds
+
+
+
+    
+for i, (imagenet_id, label, score) in enumerate(predictions):
+    print(f"{i + 1}. {label}: {score * 100:.2f}%")
+
+
+if __name__ == "__main__":
+    img_path = r"C:\\Users\\gaMERZONE\\Downloads\\img.jpeg"  
+    predictions = classify_image(img_path)
+    display_image_and_predictions(img_path, predictions)
