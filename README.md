@@ -1,10 +1,18 @@
 **NAME:** ADITYA ANAND 
+
 **COMPANY:** CODETECH IT SOLUTIONS
+
 **COLLEGE:**  MANAV RACHNA INSTITUTE OF RESEARCH AND STUDIES
+
 **DOMAIN:** ARTIFICIAL INTELLIGENCE
+
 **ID:** CT6WDS219
+
 **DURATION:** FROM 10 JUNE 2024 TO 22 JULY 2024
+
+
 **MENTOR:** SRAVANI GOUNI
+
 
 
 ## OVERVIEW OF THE PROJECT
@@ -27,6 +35,9 @@
 ## RESULT
 The script will display the input image.
 It will print the top 3 predicted classes with their probabilities.
+
+
+
  ##NOTE 
  CHANGE IMG_PATH=r"   "
  with your image path to import it in code.
